@@ -49,6 +49,10 @@ public class StatsController {
             return ResponseEntity.badRequest().build();
         }
 
+        if (startDT.isAfter(endDT)) {
+            return ResponseEntity.badRequest().build();
+        }
+
         List<RequestOutputDto> results = statsService.getRequestsWithViews(startDT, endDT, uris, unique);
         return ResponseEntity.ok().body(results);
     }
