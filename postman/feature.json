@@ -599,7 +599,8 @@
 								"exec": [
 									""
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {}
 							}
 						},
 						{
@@ -635,7 +636,8 @@
 									"    pm.expect(target.state).equal(\"CANCELED\", 'Event state must change from PENDING to CANCELED when stateAction equals REJECT_EVENT');\r",
 									"});"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],
@@ -669,7 +671,7 @@
 							"variable": [
 								{
 									"key": "eventId",
-									"value": "106",
+									"value": "107",
 									"description": "(Required)"
 								}
 							]
