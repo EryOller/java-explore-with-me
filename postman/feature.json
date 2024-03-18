@@ -25,7 +25,7 @@
 									"pm.test(\"Test user 'id' field\", function () {",
 									"    var jsonData = pm.response.json();",
 									"    pm.expect(jsonData).to.have.property('id');",
-									"    pm.expect(jsonData.id, '\"id\" must be 1').to.eql(1);",
+									"    pm.expect(jsonData.id, '\"id\" must be 138').to.eql(138);",
 									"});",
 									"pm.test(\"Test user 'email' field\", function () {",
 									"    var jsonData = pm.response.json();",
@@ -80,7 +80,7 @@
 									"pm.test(\"Test user 'id' field\", function () {",
 									"    var jsonData = pm.response.json();",
 									"    pm.expect(jsonData).to.have.property('id');",
-									"    pm.expect(jsonData.id, '\"id\" must be 2').to.eql(2);",
+									"    pm.expect(jsonData.id, '\"id\" must be 139').to.eql(139);",
 									"});",
 									"pm.test(\"Test user 'email' field\", function () {",
 									"    var jsonData = pm.response.json();",
@@ -135,7 +135,7 @@
 									"pm.test(\"Test user 'id' field\", function () {",
 									"    var jsonData = pm.response.json();",
 									"    pm.expect(jsonData).to.have.property('id');",
-									"    pm.expect(jsonData.id, '\"id\" must be 3').to.eql(3);",
+									"    pm.expect(jsonData.id, '\"id\" must be 140').to.eql(140);",
 									"});",
 									"pm.test(\"Test user 'email' field\", function () {",
 									"    var jsonData = pm.response.json();",
@@ -190,7 +190,7 @@
 									"pm.test(\"Test category 'id' field\", function () {\r",
 									"    var jsonData = pm.response.json();\r",
 									"    pm.expect(jsonData).to.have.property('id');\r",
-									"    pm.expect(jsonData.id, '\"id\" must be 1').to.eql(1);\r",
+									"    pm.expect(jsonData.id, '\"id\" must be 123').to.eql(123);\r",
 									"});\r",
 									"pm.test(\"Test category 'name' field\", function () {\r",
 									"    var jsonData = pm.response.json();\r",
@@ -245,7 +245,7 @@
 									"pm.test(\"Test category 'id' field\", function () {\r",
 									"    var jsonData = pm.response.json();\r",
 									"    pm.expect(jsonData).to.have.property('id');\r",
-									"    pm.expect(jsonData.id, '\"id\" must be 2').to.eql(2);\r",
+									"    pm.expect(jsonData.id, '\"id\" must be 124').to.eql(124);\r",
 									"});\r",
 									"pm.test(\"Test category 'name' field\", function () {\r",
 									"    var jsonData = pm.response.json();\r",
@@ -364,7 +364,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"annotation\": \"11.06 Прогулка по кремлю\",\r\n    \"category\": 1,\r\n    \"description\": \"Покажу улицу Счастья\",\r\n    \"eventDate\": \"2024-06-11 13:00:00\",\r\n    \"location\": {\r\n        \"description\": \"Кремль\",\r\n        \"lat\": 35.6,\r\n        \"lon\": 22.3\r\n    },\r\n    \"paid\": false,\r\n    \"participantLimit\": 0,\r\n    \"requestModeration\": true,\r\n    \"title\": \"Прогулка\"\r\n}",
+							"raw": "{\r\n    \"annotation\": \"11.06 Прогулка по кремлю\",\r\n    \"category\": 123,\r\n    \"description\": \"Покажу улицу Счастья\",\r\n    \"eventDate\": \"2024-06-11 13:00:00\",\r\n    \"location\": {\r\n        \"description\": \"Кремль\",\r\n        \"lat\": 35.6,\r\n        \"lon\": 22.3\r\n    },\r\n    \"paid\": false,\r\n    \"participantLimit\": 0,\r\n    \"requestModeration\": true,\r\n    \"title\": \"Прогулка\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -384,7 +384,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "1",
+									"value": "138",
 									"description": "(Required) current user id"
 								}
 							]
@@ -467,7 +467,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"annotation\": \"15.07 Прогулка по саборной площади\",\r\n    \"category\": 2,\r\n    \"description\": \"Поболтаем с java разработчиками о работе\",\r\n    \"eventDate\": \"2024-07-15 17:00:00\",\r\n    \"location\": {\r\n        \"description\": \"Саборная площадь\",\r\n        \"lat\": 127.6,\r\n        \"lon\": 269.3\r\n    },\r\n    \"paid\": false,\r\n    \"participantLimit\": 5,\r\n    \"requestModeration\": true,\r\n    \"title\": \"Прогулка\"\r\n}",
+							"raw": "{\r\n    \"annotation\": \"15.07 Прогулка по саборной площади\",\r\n    \"category\": 124,\r\n    \"description\": \"Поболтаем с java разработчиками о работе\",\r\n    \"eventDate\": \"2024-07-15 17:00:00\",\r\n    \"location\": {\r\n        \"description\": \"Саборная площадь\",\r\n        \"lat\": 127.6,\r\n        \"lon\": 269.3\r\n    },\r\n    \"paid\": false,\r\n    \"participantLimit\": 5,\r\n    \"requestModeration\": true,\r\n    \"title\": \"Прогулка\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -487,7 +487,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "2",
+									"value": "139",
 									"description": "(Required) current user id"
 								}
 							]
@@ -570,7 +570,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"annotation\": \"20.07 Прогулка по площади победы\",\r\n    \"category\": 2,\r\n    \"description\": \"Посетить ТРЦ, мемориал и фонтан\",\r\n    \"eventDate\": \"2024-07-20 15:00:00\",\r\n    \"location\": {\r\n        \"description\": \"Площадь победы\",\r\n        \"lat\": 385.6,\r\n        \"lon\": 473.3\r\n    },\r\n    \"paid\": false,\r\n    \"participantLimit\": 0,\r\n    \"requestModeration\": false,\r\n    \"title\": \"Прогулка\"\r\n}",
+							"raw": "{\r\n    \"annotation\": \"20.07 Прогулка по площади победы\",\r\n    \"category\": 124,\r\n    \"description\": \"Посетить ТРЦ, мемориал и фонтан\",\r\n    \"eventDate\": \"2024-07-20 15:00:00\",\r\n    \"location\": {\r\n        \"description\": \"Площадь победы\",\r\n        \"lat\": 385.6,\r\n        \"lon\": 473.3\r\n    },\r\n    \"paid\": false,\r\n    \"participantLimit\": 0,\r\n    \"requestModeration\": false,\r\n    \"title\": \"Прогулка\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -590,7 +590,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "3",
+									"value": "140",
 									"description": "(Required) current user id"
 								}
 							]
@@ -600,7 +600,7 @@
 					"response": []
 				},
 				{
-					"name": "Event 109 by User 2",
+					"name": "Event 4 by User 2",
 					"event": [
 						{
 							"listen": "prerequest",
@@ -673,7 +673,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"annotation\": \"26.08 Оздоровительнгая прогулка с собоками\",\r\n    \"category\": 1,\r\n    \"description\": \"Релакс, спорт и массаж тела лапами\",\r\n    \"eventDate\": \"2024-08-26 18:00:00\",\r\n    \"location\": {\r\n        \"description\": \"Борки\",\r\n        \"lat\": 184.6,\r\n        \"lon\": 274.3\r\n    },\r\n    \"paid\": false,\r\n    \"participantLimit\": 0,\r\n    \"requestModeration\": false,\r\n    \"title\": \"Оздоровительная прогулка\"\r\n}",
+							"raw": "{\r\n    \"annotation\": \"26.08 Оздоровительнгая прогулка с собоками\",\r\n    \"category\": 123,\r\n    \"description\": \"Релакс, спорт и массаж тела лапами\",\r\n    \"eventDate\": \"2024-08-26 18:00:00\",\r\n    \"location\": {\r\n        \"description\": \"Борки\",\r\n        \"lat\": 184.6,\r\n        \"lon\": 274.3\r\n    },\r\n    \"paid\": false,\r\n    \"participantLimit\": 0,\r\n    \"requestModeration\": false,\r\n    \"title\": \"Оздоровительная прогулка\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -693,7 +693,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "2",
+									"value": "139",
 									"description": "(Required) current user id"
 								}
 							]
@@ -873,7 +873,7 @@
 							"variable": [
 								{
 									"key": "eventId",
-									"value": "2",
+									"value": "107",
 									"description": "(Required)"
 								}
 							]
@@ -963,7 +963,7 @@
 							"variable": [
 								{
 									"key": "eventId",
-									"value": "3",
+									"value": "108",
 									"description": "(Required) id события"
 								}
 							]
@@ -1046,7 +1046,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "1"
+									"value": "138"
 								},
 								{
 									"key": "eventId",
@@ -1126,7 +1126,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "2"
+									"value": "139"
 								},
 								{
 									"key": "eventId",
@@ -1211,7 +1211,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "2"
+									"value": "139"
 								},
 								{
 									"key": "eventId",
@@ -1296,7 +1296,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "3"
+									"value": "140"
 								},
 								{
 									"key": "eventId",
@@ -1366,7 +1366,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "3"
+									"value": "140"
 								},
 								{
 									"key": "eventId",
@@ -1436,11 +1436,11 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "20"
+									"value": "200"
 								},
 								{
 									"key": "eventId",
-									"value": "2"
+									"value": "139"
 								}
 							]
 						}
@@ -1955,7 +1955,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "2"
+									"value": "139"
 								},
 								{
 									"key": "eventId",
@@ -2012,7 +2012,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "2"
+									"value": "139"
 								},
 								{
 									"key": "eventId",
@@ -2073,7 +2073,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "3"
+									"value": "140"
 								},
 								{
 									"key": "eventId",
@@ -2149,7 +2149,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "2"
+									"value": "139"
 								}
 							]
 						}
@@ -2203,7 +2203,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "3"
+									"value": "140"
 								}
 							]
 						}
@@ -2273,7 +2273,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "2"
+									"value": "139"
 								},
 								{
 									"key": "eventId",
@@ -2334,7 +2334,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "2"
+									"value": "139"
 								},
 								{
 									"key": "eventId",
@@ -2668,7 +2668,7 @@
 							"variable": [
 								{
 									"key": "userId",
-									"value": "2"
+									"value": "139"
 								},
 								{
 									"key": "eventId",
