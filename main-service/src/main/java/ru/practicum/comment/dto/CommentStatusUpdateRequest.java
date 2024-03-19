@@ -5,8 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import ru.practicum.comment.model.CommentStatus;
 
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import java.util.List;
@@ -21,6 +19,5 @@ public class CommentStatusUpdateRequest {
     private List<Long> commentIds;
 
     @NotNull
-    @Enumerated(EnumType.STRING)
     private CommentStatus status;
 }

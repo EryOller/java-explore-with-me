@@ -1,6 +1,5 @@
 package ru.practicum.comment.model;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 import ru.practicum.event.model.Event;
 import ru.practicum.user.model.User;
@@ -28,17 +27,14 @@ public class Comment {
     private String text;
 
     @Column(name = "created")
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime createdOn;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id")
+    @ManyToOne(fetch = FetchType.LAZY)
     private User user;
 
     @Enumerated(EnumType.STRING)
     private CommentStatus status;
 
-    @ManyToOne
-    @JoinColumn(name = "event_id")
+    @ManyToOne(fetch = FetchType.LAZY)
     private Event event;
 }
